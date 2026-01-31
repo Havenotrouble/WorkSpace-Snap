@@ -1,0 +1,49 @@
+{
+  "name": "workspace-snap-web",
+  "version": "1.0.0",
+  "description": "Official website for WorkSpace Snap - Smart workspace management tool",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "type-check": "tsc --noEmit",
+    "deploy": "vercel --prod"
+  },
+  "keywords": [
+    "workspace",
+    "productivity",
+    "windows",
+    "desktop-management",
+    "next.js"
+  ],
+  "author": "WorkSpace Snap Team",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Havenotrouble/WorkSpace-Snap"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "@types/node": "^25.1.0",
+    "@types/react": "^19.2.10",
+    "@types/react-dom": "^19.2.3",
+    "@vercel/analytics": "^1.6.1",
+    "autoprefixer": "^10.4.23",
+    "clsx": "^2.1.1",
+    "framer-motion": "^12.29.2",
+    "lucide-react": "^0.563.0",
+    "next": "^16.1.6",
+    "postcss": "^8.5.6",
+    "react": "^19.2.4",
+    "react-dom": "^19.2.4",
+    "tailwind-merge": "^3.4.0",
+    "tailwindcss": "^4.1.18",
+    "typescript": "^5.9.3"
+  }
+}
